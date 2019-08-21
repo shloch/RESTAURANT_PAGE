@@ -1,0 +1,24 @@
+{
+  "name": "restaurant_page",
+  "version": "1.0.0",
+  "description": "dynamically rendering a simple restaurant homepage!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buils": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shloch/RESTAURANT_PAGE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shloch/RESTAURANT_PAGE/issues"
+  },
+  "homepage": "https://github.com/shloch/RESTAURANT_PAGE#readme",
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
