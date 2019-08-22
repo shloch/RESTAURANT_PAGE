@@ -6,30 +6,29 @@ import { menu_txt } from "./menu";
 import { contact_txt } from "./contact";
 import { home_txt } from "./home";
 
-//-------inserts HOME PAGE text ---------------
 nav_menu();
 home_txt();
-//-----------------------------------------
-const home_link = document.querySelector("#home_link");
-home_link.addEventListener("click", e => {
-    home_txt();
-    e.preventDefault();
-});
 
-const about_link = document.querySelector("#about_link");
-about_link.addEventListener("click", e => {
-    about_txt();
-    e.preventDefault();
-});
-
-const menu_link = document.querySelector("#menu_link");
-menu_link.addEventListener("click", e => {
-    menu_txt();
-    e.preventDefault();
-});
-
-const contact_link = document.querySelector("#contact_link");
-contact_link.addEventListener("click", e => {
-    contact_txt();
-    e.preventDefault();
+const tabs = document.querySelectorAll(".navbar-nav a");
+tabs.forEach((tab, index) => {
+    tab.addEventListener("click", event => {
+        console.log(event.currentTarget.hash.slice(1));
+        let href_value = event.currentTarget.hash.slice(1);
+        switch (href_value) {
+            case "home":
+                home_txt();
+                break;
+            case "menu":
+                menu_txt();
+                break;
+            case "about":
+                about_txt();
+                break;
+            case "contact":
+                contact_txt();
+                break;
+            default:
+                home_txt();
+        }
+    });
 });

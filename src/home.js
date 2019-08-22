@@ -6,9 +6,8 @@ let home_pre_txt = `<h1 class="anim">WELCOME TO SHLOCH RESTAURANT</h1>
 
 function home_txt() {
     var element = document.createElement("div");
-    document.getElementById("content").innerHTML = ""; //empty the div
+    document.getElementById("content").innerHTML = ""; 
     document.getElementById("content").appendChild(element);
-    //element.setAttribute("id", "about_id"); //giv child new id
 
     element.innerHTML = home_pre_txt;
     return element;

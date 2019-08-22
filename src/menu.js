@@ -13,9 +13,9 @@ let pre_txt = `
 
 function menu_txt() {
     var element = document.createElement("div");
-    document.getElementById("content").innerHTML = ""; //empty the div
+    document.getElementById("content").innerHTML = "";
     document.getElementById("content").appendChild(element);
-    element.setAttribute("id", "menu_id"); //giv child new id
+    element.setAttribute("id", "menu_id");
 
     element.innerHTML = pre_txt;
     return element;

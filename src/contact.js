@@ -7,9 +7,9 @@ let pre_txt = `<h1>Contact Us</h1>
 
 function contact_txt() {
     var element = document.createElement("div");
-    document.getElementById("content").innerHTML = ""; //empty the div
+    document.getElementById("content").innerHTML = "";
     document.getElementById("content").appendChild(element);
-    element.setAttribute("id", "contact_id"); //giv child new id
+    element.setAttribute("id", "contact_id");
 
     element.innerHTML = pre_txt;
     return element;
