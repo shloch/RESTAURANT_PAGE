@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    margin-bottom: 5%;
+    background-color: white !important;
+}
+
+.nav-link:hover {
+    color: green;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav-item {
+    margin-left: 5%;
+}
+
+.active {
+    color: rgb(145, 7, 7);
+}
+
+.home {
+    margin-left: 20%;
+}
+
+#content {
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 10%;
+    text-align: justify;
+}
+
+
+/*----MENU PAGE---*/
+
+.first-col .text-box {
+    padding: 12%;
+    margin-top: 12%;
+}
+
+.first-col h1 {
+    text-shadow: 0px 2px 5px blue;
+}
+
+.first-col img {
+    width: 70%;
+    margin-top: 12%;
+}
+
+.blue {
+    color: rgb(2, 3, 61);
+}
+
+.orange {
+    color: orange;
+}
+
+
+/*--animate--*/
+
+
+/* The animation code */
+
+@keyframes anim_title {
+    from {
+        color: yellow;
+    }
+    to {
+        color: white;
+    }
+}
+
+
+/* The element to apply the animation to */
+
+.anim {
+    animation-name: anim_title;
+    animation-duration: 3s;
+}
