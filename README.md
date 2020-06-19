@@ -7,7 +7,7 @@ Dynamically rendering a simple restaurant homepage! using Webpack.
 
 https://raw.githack.com/shloch/RESTAURANT_PAGE/development/dist/index.html#
 
-![alt text](https://github.com/shloch/RESTAURANT_PAGE/blob/development/dist/assets/restaurant_screenshot.png)
+![alt text](https://github.com/shloch/RESTAURANT_PAGE/blob/development/dist/assets/restaurant.gif)
 
 ## Contributors
 
